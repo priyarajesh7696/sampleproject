@@ -1,5 +1,5 @@
 import React from 'react'
-import Crad from './components/Crad';
+import Crad from './components/Card';
 
 function App() {
   let data =[{
@@ -35,7 +35,7 @@ function App() {
         {
           data.map((e,i)=>
           {
-            return < Crad cardData={e} key={i}></Crad>
+            return < Card cardData={e} key={i}> </Card>
              })      
         }
        
