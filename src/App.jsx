@@ -1,5 +1,5 @@
 import React from 'react'
-import Crad from './components/Card';
+import Card from './components/Card';
 
 function App() {
   let data =[{
